@@ -14,9 +14,7 @@ Specifically, the goal is to predict whether a loan was "healthy" (represented b
 7- total_debt: Total current debt of the borrower 
 8- loan_status: The target variable indicating loan status (0= healthy, 1= high-risk) 
 
-The first inspection of the loan_status variable showed a class imbalance with significantly more 0s (healthy loans) than 1s (high risk loans. 
-
- 
+The first inspection of the loan_status variable showed a class imbalance with significantly more 0s (healthy loans) than 1s (high risk loans). 
 
 ### Machine learning process steps: 
 
@@ -59,7 +57,7 @@ Python libraries:
 
 3- For classification model used Logistic Regression to Predict loan status (healthy/high-risk). 
 
-4- For evaluation used Confusion Matrix to Quantify model errors (FP, FN, TP, TN). 
+4- For evaluation used Confusion Matrix to Quantify model errors. 
 
 5- for evaluation used classification Report to summarize precision, recall, F1, support. 
 
